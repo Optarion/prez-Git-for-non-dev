@@ -141,7 +141,14 @@ Je récupère un autre état des fichiers:
 Et c'est vrai que c'est perturbant.
 
 Donc il y a aussi des GUI (interfaces graphiques) qui ont été créées pour faciliter la vie des non-dev
+- Sourcetree (https://www.sourcetreeapp.com/)
+- Git Kraken (https://www.gitkraken.com/)
+- ...
 
-<présenter source tree>
+=> présenter source tree
+
+L'avantage de ces outils est qu'ils sont très visuels et facilitent donc la compréhension de l'historique des versions.
+Personnelement, je les utilise quand j'ai fait un ensemble d'actions git et que je ne comprends plus où en est mon historique (ça arrive vite quand on a plusieurs branches imbriquées les unes dans les autres etc.)
+
 
 
