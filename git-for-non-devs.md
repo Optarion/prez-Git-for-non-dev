@@ -91,18 +91,15 @@ Il peut même faire des branches différentes s'il veut écrire travailler sur u
 Imaginons un étudiant. Chaque année, il doit chercher un nouveau stage.
 Donc chaque année, il change son CV avec ses dernières expériences, modifie un peu la mise en page, enlève/rajoute du texte/photos etc.
 Mais en même temps, pour garder un historique, il n'a pas envie d'écraser les contenus des années d'avant (ou il veut peut être faire des versions légèrement différentes selon le secteur qu'il vise) .
-Une manière habituelle, c'est de dupliquer les CV: 
-CV-ARousselet-2016.doc
-CV-ARousselet-2017.doc
-CV-ARousselet-2018-devFullStack.doc
-CV-ARousselet-2018-devFront.doc
-CV-ARousselet-2020.doc
-...
+
+<p><em>Une manière habituelle, c'est de dupliquer les CV</em></p>
+<img src="old-school-versioning.png" width="300">
+
 
 Ca marche plutôt bien mais c'est vite le bazar. Du coup, il réorganise son dossier pour conserver seulement la dernière version dans son répertoire et remise les autres dans un sous dossier.
-Du coup, on fait quelque chose du genre:
-/old
-CV-ARousselet-2020.doc
+
+<p><em>Cache misère du versioning</em></p>
+<img src="hide-and-search-versioning.png" width="300">
 
 Ok, c'est plus propre.
 Mais c'est pénible quand même ce "old". Et imaginons que je fasse une fausse manip et que je le supprime :scream:
@@ -111,7 +108,10 @@ C'est là que Git rentre en jeu:
 L'étudiant peut initialiser git dans son dossier de CV.
 Il commit chacunes des modifications du CV (par ex: "git commit CV-2016") et comme ça, il n'a toujours qu'un seul fichier de CV (celui à jour) mais a la possibilité de revenir à une version antièrieure (un commit) s'il en a besoin.
 
-C'est pas propre ça ?! :balai:
+
+<p><em>C'est pas propre ça ?! :broom:</em></p>
+<img src="clean-versioning.png" width="300">
+
 
 ## "Trop bien... je vais pouvoir commit tous mes fichiers !"
 
