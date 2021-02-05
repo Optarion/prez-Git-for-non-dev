@@ -68,9 +68,13 @@ Le terme de "branche" vient du fait que si on représente visuellement l'histori
     - on a un tronc: l'historique principal
     - on a pleins de petites branches: qui sont les modifications "en cours" (vouées, à terme, à faire parti du tronc princpal)
 
-<screenshot historique sans branche>
 
-<screenshot historique avec branche>
+<img src="no-branching.png" height="200">
+<p><em>Un historique sans branche</em></p>
+
+<img src="complex-branching.png" height="200">
+<p><em>Un historique complexe (avec plusieurs départ de branches)</em></p>
+
 
 
 ## "D'accord... donc c'est vraiment un truc de dev en fait !"
