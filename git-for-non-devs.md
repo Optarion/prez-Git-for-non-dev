@@ -8,9 +8,13 @@ L'idée de base, c'est de gérer les différentes version d'un fichier, qui évo
 
 Git n'a pas inventé le concept (premier soft IBM en 1962, Subversion...) mais il a développé le concept vers un outil distribué/collaboratif et ce qui a democratisé le sujet.
 
++ anecdote Linus Torvald (créateur de Linux) qui a dit "Les outils existants fonctionnent pas assez bien, je vais faire le mien" => 1 mois plus tard, Git était né
+
+Date création git: avril 2005
+Aujourd'hui ~70-80% des projets dev utilisent git => grosse domination
 
 ## "Ok mais... ça sert à quoi, en vrai ?"
 
 
-## "D'accord... donc c'est vraiment un truc de dev en fait !"
 
+## "D'accord... donc c'est vraiment un truc de dev en fait !"
