@@ -8,4 +8,7 @@ jobs:
       tag: '10.4'
     steps:
       - checkout
+      - run:
+          name: "test variable"
+          command: echo $variableTest
       - run: npm install
