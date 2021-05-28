@@ -11,4 +11,7 @@ jobs:
       - run:
           name: "test variable"
           command: echo $variableTest
+      - run:
+          name: "What branch am I on?"
+          command: echo ${CIRCLE_BRANCH}
       - run: npm install
